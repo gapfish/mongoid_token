@@ -3,7 +3,7 @@ require 'version'
 
 Gem::Specification.new do |s|
   s.name        = 'mongoid_token'
-  s.version     = MongoidToken::VERSION
+  s.version     = Version
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Nicholas Bruning']
   s.email       = %w[nicholas@bruning.com.au]
