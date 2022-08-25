@@ -1,9 +1,8 @@
-$LOAD_PATH.push File.expand_path('lib', __dir__)
-require 'version'
+require_relative 'lib/mongoid_token/version'
 
 Gem::Specification.new do |s|
   s.name        = 'mongoid_token'
-  s.version     = Version
+  s.version     = MongoidToken::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Nicholas Bruning']
   s.email       = %w[nicholas@bruning.com.au]

@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
-require "zeitwerk"
 require "active_support/concern"
-loader = Zeitwerk::Loader.for_gem
+require "mongoid"
+
+require "zeitwerk"
+loader = Zeitwerk::Loader.for_gem(warn_on_extra_files: false)
 loader.setup
 
 module MongoidToken
